@@ -1,0 +1,13 @@
+12
+33C:\Users\Tang\Desktop\T\nav\.idea133176371931860237 1
+31C:\Users\Tang\Desktop\T\nav\src133176369136010398 1
+35C:\Users\Tang\Desktop\T\nav\src\img133176346546190345 1
+42C:\Users\Tang\Desktop\T\nav\src\index.html133176349595354027 0
+39C:\Users\Tang\Desktop\T\nav\src\main.js133176369136005032 0
+41C:\Users\Tang\Desktop\T\nav\src\style.css133176347246535088 0
+42C:\Users\Tang\Desktop\T\nav\src\img\a.jpeg133176346014519181 0
+42C:\Users\Tang\Desktop\T\nav\src\img\b.jpeg133176295521886790 0
+44C:\Users\Tang\Desktop\T\nav\.idea\.gitignore133175683664130453 0
+45C:\Users\Tang\Desktop\T\nav\.idea\modules.xml133175683662765100 0
+41C:\Users\Tang\Desktop\T\nav\.idea\nav.iml133175683662579824 0
+47C:\Users\Tang\Desktop\T\nav\.idea\workspace.xml133176371931850353 0
