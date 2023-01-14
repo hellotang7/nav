@@ -22,10 +22,25 @@ body{background: #eeeeee}
 .globalHeader{
     margin: 20px ;
 }
+
+@media (min-width: 500px) {
+    .globalHeader{
+        margin:60px 0 100px;    }
+}
+
 .globalHeader> form{
     display: flex;
     justify-content: space-between;
+
 }
+
+@media (min-width: 500px) {
+    .globalHeader> form{
+        max-width: 400px;
+        margin: 0 auto;
+    }
+}
+
 .globalHeader> form > input{
     width: 100%;
     margin-right: 10px;
@@ -43,7 +58,9 @@ body{background: #eeeeee}
 }
 
 .globalMain{
-
+max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .siteList{
@@ -51,11 +68,22 @@ body{background: #eeeeee}
     display: flex;
     flex-wrap: wrap;
     margin: 20px;
-    justify-content: space-between;
+    justify-content: space-between
+
+}
+
+@media (min-width: 500px) {
+    .siteList{
+        margin-left: 0;
+        margin-right: -25px;
+        justify-content: flex-start;/*PC端关闭*/
+    }
+        .siteList>li {
+        margin-right: 25px;
+        }
 }
 
 .siteList > li{
-
     margin-bottom: 10px;
 }
 .siteList .site {
@@ -65,9 +93,11 @@ body{background: #eeeeee}
     align-items: center;
     flex-direction: column;
     background: white;
-    border: 1px solid #ddd;
+    /*border: 1px solid #ddd;*/
     border-radius: 4px;
     padding: 20px;
+    position: relative;
+    cursor: pointer; /*进入site鼠标切换成手型*/
 }
 .siteList .site >.logo {
     height: 64px;
@@ -76,10 +106,29 @@ body{background: #eeeeee}
     justify-content: center;
     align-items: center;
     font-size: 64px;
+    text-transform: uppercase;/*变成大写*/
 }
 .siteList .site >.link{
     font-size: 14px;
     margin-top: 4px;
+}
+
+@media (min-width: 500px) {
+    .siteList .site>.close{
+    display: none;
+    }
+}
+
+.siteList .site >.close{
+    position:absolute ;
+    bottom: -5px;
+    right: 0px;
+    font-size:50px;
+    
+    cursor: default;/*进入close鼠标手型切换鼠标*/
+}
+.siteList .site:hover>.close {
+display: block;
 }
 .siteList .addButton{
    background: white;
@@ -98,7 +147,7 @@ body{background: #eeeeee}
 }
 .siteList  .addButton .text{
     font-size: 14px;
-    margin-top: 14px;
+    margin-top: 4px;
 }
 .siteList  .addButton .icon-wrapper{
 
