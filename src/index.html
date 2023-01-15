@@ -3,19 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
-    <title>风向标 - 前端导航网站</title>
+    <title>纸飞机-前端导航网站</title>
     </style>
     <link rel="stylesheet" href="./style.css">
 </head>
 
 
 <body>
+<div class="nav-logo">
+    <svg class="icon" >
+        <use xlink:href="#icon-logo"></use>
+    </svg>
+</div>
+
 <header class="globalHeader">
     <form class=searchForm" method="get"
-    action="https://www.baidu.com"
+    action="https://cn.bing.com/search"
     target="_blank">
-        <input name="wd" type="text" >
-        <button type="submit">搜索</button>
+
+        <input name="q" type="text" placeholder="请输入关键词" >
+
+        <button type="submit">
+            <div class="sousuo">
+                <svg class="icon" >
+                    <use xlink:href="#icon-sousuo"></use>
+                </svg></div>
+        </button>
+
     </form>
 </header>
 
@@ -34,7 +48,7 @@
         </li>
     </ul>
 </main>
-<script src="//at.alicdn.com/t/c/font_3855273_y89fct33rp9.js"></script>
+<script src="//at.alicdn.com/t/c/font_3855273_p0g94sok8n.js"></script>
 <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
 <script src="main.js"></script>
 </body>
